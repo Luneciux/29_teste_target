@@ -60,18 +60,3 @@ const quadradoPerfeito = (valor) => {
 //o terceiro voce descobre por inferencia
 
 
-//5 questao
-
-leitor.question('Inverter String  ', (valor) => {
-    console.log(inverter(valor));
-    leitor.close();
-});
-
-const inverter = (valor) => {
-    let novoValor = [];
-    for (let index = 0; index < valor.length; index++) {
-        novoValor[index] = valor[valor.length - index];
-    }
-
-    return novoValor;
-}
